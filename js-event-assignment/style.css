@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hoverButton:hover {
+    background-color: lightblue;
+}
+
+#validationForm input {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#gallery img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+#nextImage {
+    padding: 8px 16px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+/* Add some simple animation */
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
